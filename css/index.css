@@ -13,7 +13,7 @@ body {
     background-color: rgba(202,204,209,1);
 }
 .body{
-	margin-top: 50px;
+    margin-top: 50px;
     margin-left: 20%;
     margin-right: 20%;
     padding: 20px 0.5%;
@@ -24,9 +24,9 @@ body {
 }
 
 .commentLeft{
-	font-weight:bold;
-	margin:20px 100px 20px 20px;
-	padding: 10px;
+    font-weight:bold;
+    margin:20px 100px 20px 20px;
+    padding: 10px;
     position: relative;
     background-color: rgba(255,255,255,0.5);
     box-shadow: 0 0 15px #000;
@@ -53,10 +53,10 @@ body {
 
 }
 .commentRight{
-	text-align: right;
-	font-weight:bold;
-	margin:20px 20px 20px 100px;
-	padding: 10px;
+    text-align: right;
+    font-weight:bold;
+    margin:20px 20px 20px 100px;
+    padding: 10px;
     position: relative;
     background-color: rgba(255,255,255,0.5);
     box-shadow: 0 0 15px #000;
