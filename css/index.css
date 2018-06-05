@@ -12,3 +12,76 @@ body {
     text-align: center;
     background-color: #d4d4d4;
 }
+.body{
+	margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px 0.5%;
+    background-color: #d4d4d4;
+    border-radius: 20px;
+    height: 800px;
+    overflow: auto;
+}
+
+.commentLeft{
+	font-weight:bold;
+	margin:20px 100px 20px 20px;
+	padding: 10px;
+    position: relative;
+    background-color: rgba(255,255,255,0.5);
+    box-shadow: 0 0 15px #000;
+    font-size:1.5em;
+}
+.commentLeft:before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    left: 200px;
+    top: 20px;
+}
+.commentLeft:after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    left: -10px;
+    top: 30%;
+    border-right: 10px solid #fff;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+
+}
+.commentRight{
+	text-align: right;
+	font-weight:bold;
+	margin:20px 20px 20px 100px;
+	padding: 10px;
+    position: relative;
+    background-color: rgba(255,255,255,0.5);
+    box-shadow: 0 0 15px #000;
+    font-size:1.5em;
+}
+.commentRight:before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    left: 200px;
+    top: 20px;
+}
+.commentRight:after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    right: -10px;
+    top: 30%;
+    border-left: 10px solid #fff;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+}
+#commentArea{
+	background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1528197462566&di=4cc5fe528719b40760e77b48c92940cf&imgtype=0&src=http%3A%2F%2Fimg5q.duitang.com%2Fuploads%2Fitem%2F201311%2F08%2F20131108101501_V5dzz.thumb.700_0.jpeg);
+	background-size: cover;
+}
