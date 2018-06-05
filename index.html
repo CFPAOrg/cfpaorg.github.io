@@ -21,9 +21,23 @@
         <p class="commentRight">在这里，你可以畅所欲言~</p>
         <p class="commentLeft">emmmmmmmm，说点什么好呢？</p>
     </div>
+    <div style="height: 500px; margin:50px;margin-left:10%;margin-right: 10%;display: flex;">
+    	<div style="height: 500px; width:500px;overflow: hidden;border-radius: 30px;"><div id="banner" style="height: 500px; width:500px;background: #ccc"></div></div>
+    	<div style="width:600px;height:500px;background: #ccc;border-radius: 30px;margin-left: 50px;padding: 20px 5%;font-weight: bold;font-size: 1.5em;">
+    		<p>不懂东方....不知道写啥...</p>
+    	</div>
+    </div>
+    
     <div class="body" id="commentArea"></div>
     <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/banner.js"></script>
+    <script>
+    	var oBanner = document.querySelector("#banner");
+		var arrImg = ["https://img.moegirl.org/common/thumb/d/d0/12537900.jpg/400px-12537900.jpg","https://img.moegirl.org/common/thumb/6/69/Pixiv%3D56271169.jpg/350px-Pixiv%3D56271169.jpg","https://img.moegirl.org/common/thumb/d/dd/Rumia_1.png/300px-Rumia_1.png","https://img.moegirl.org/common/thumb/3/3b/3994982.jpg/300px-3994982.jpg","https://img.moegirl.org/common/thumb/9/99/33195548_p0.jpg/400px-33195548_p0.jpg"];
+        var arrURL = ["https://zh.moegirl.org/%E5%8D%9A%E4%B8%BD%E7%81%B5%E6%A2%A6","https://zh.moegirl.org/%E9%9B%BE%E9%9B%A8%E9%AD%94%E7%90%86%E6%B2%99","https://zh.moegirl.org/%E9%9C%B2%E7%B1%B3%E5%A8%85","https://zh.moegirl.org/%E7%90%AA%E9%9C%B2%E8%AF%BA","https://zh.moegirl.org/%E5%B8%95%E7%A7%8B%E8%8E%89%C2%B7%E8%AF%BA%E8%95%BE%E5%A7%AC"];
+		banner(oBanner,arrImg,arrURL);
+    </script>
 </body>
 
 </html>
