@@ -1,96 +1,56 @@
 body {
-    background-color: #1a1a1a;
+    font-family: "consolas", "微软雅黑";
 }
 
-.title {
-    margin-top: 2%;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
-    border-radius: 20px;
-    text-align: center;
-    background-color: rgba(202, 204, 209, 1);
+.page-header h1 {
+    font-family: "华文中宋";
+    padding-left: 5%;
+    font-weight: 900;
 }
 
-.body {
-    margin-top: 50px;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 20px 5%;
-    background-color: #d4d4d4;
-    border-radius: 20px;
-    height: 800px;
-    overflow: auto;
+.main,
+.side {
+    background-color: #fcfcfc;
+    box-shadow: 1px 1px 25px rgb(206, 206, 206, 10);
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    padding: 5% 8% 5% 8%;
+    margin: 2px;
+    margin-bottom: 50px;
 }
 
-.commentLeft {
-    font-weight: bold;
-    margin: 20px 100px 20px 20px;
-    padding: 10px;
-    position: relative;
-    background-color: rgba(255, 255, 255, 0.5);
-    box-shadow: 0 0 15px #000;
-    font-size: 1.5em;
+.side {
+    margin-bottom: 15px;
 }
 
-.commentLeft:before {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 0;
-    left: 200px;
-    top: 20px;
+.main h1 {
+    margin-bottom: 15px;
+    font-family: "华文中宋";
+    font-weight: 900;
 }
 
-.commentLeft:after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 0;
-    left: -10px;
-    top: 30%;
-    border-right: 10px solid rgba(255, 255, 255, 0.8);
-    ;
-    border-top: 7px solid transparent;
-    border-bottom: 7px solid transparent;
-
+.side {
+    margin: 1 auto;
 }
 
-.commentRight {
+.main p,
+.side p {
+    font-family: "华文中宋";
+    color: #5a5a5a;
+}
+
+.author {
+    margin-bottom: 3%;
+    opacity: 0.8;
+}
+
+.name {
     text-align: right;
-    font-weight: bold;
-    margin: 20px 20px 20px 100px;
-    padding: 10px;
-    position: relative;
-    background-color: rgba(255, 255, 255, 0.5);
-    box-shadow: 0 0 15px #000;
-    font-size: 1.5em;
 }
 
-.commentRight:before {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 0;
-    left: 200px;
-    top: 20px;
-}
-
-.commentRight:after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 0;
-    right: -10px;
-    top: 30%;
-    border-left: 10px solid rgba(255, 255, 255, 0.8);
-    ;
-    border-top: 7px solid transparent;
-    border-bottom: 7px solid transparent;
-}
-
-#commentArea {
-    background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1528197462566&di=4cc5fe528719b40760e77b48c92940cf&imgtype=0&src=http%3A%2F%2Fimg5q.duitang.com%2Fuploads%2Fitem%2F201311%2F08%2F20131108101501_V5dzz.thumb.700_0.jpeg);
-    background-size: cover;
+.main:hover,
+.side:hover {
+    background-color: #d6d6d6;
+    cursor: context-menu;
+    transition: 0.3s background-color;
 }
