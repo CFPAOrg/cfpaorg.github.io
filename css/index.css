@@ -1,49 +1,44 @@
 .row {
-    margin-top: 1rem;
+  margin-top: 1rem;
+  padding: 0.8rem 0 0.8rem 0;
 }
 
 .main-title {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
-
 
 .join-us {
-    margin: 0px auto;
-    display: table;
+  margin: 0px auto;
+  display: table;
 }
-
-
 
 .sub-info {
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-    padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  padding: 1rem;
 }
 
-
-
 .footer {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .col-md-3,
 .col-sm-6 {
-    padding: 1.5rem;
-    margin-top: 1rem;
+  padding: 1.5rem;
+  margin-top: 1rem;
 }
 
 a,
 a:hover {
-    color: darkslategray;    
-    text-decoration: none;
-
+  color: darkslategray;
+  text-decoration: none;
 }
 
 .col-md-3:hover,
 .col-xs-6:hover {
-    background-color: #f2f1f1;
-    border-radius: 0.2rem;
-    transition-duration: 0.3s;
+  background-color: #f2f1f1;
+  border-radius: 0.2rem;
+  transition-duration: 0.3s;
 }
