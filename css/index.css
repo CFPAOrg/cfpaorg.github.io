@@ -1,56 +1,49 @@
-body {
-    font-family: "consolas", "微软雅黑";
+.row {
+    margin-top: 1rem;
 }
 
-.page-header h1 {
-    font-family: "华文中宋";
-    padding-left: 5%;
-    font-weight: 900;
+.main-title {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
-.main,
-.side {
-    background-color: #fcfcfc;
-    box-shadow: 1px 1px 25px rgb(206, 206, 206, 10);
-    border: 1px solid #dedede;
-    border-radius: 2px;
-    padding: 5% 8% 5% 8%;
-    margin: 2px;
-    margin-bottom: 50px;
+
+.join-us {
+    margin: 0px auto;
+    display: table;
 }
 
-.side {
-    margin-bottom: 15px;
+
+
+.sub-info {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    padding: 1rem;
 }
 
-.main h1 {
-    margin-bottom: 15px;
-    font-family: "华文中宋";
-    font-weight: 900;
+
+
+.footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
-.side {
-    margin: 1 auto;
+.col-md-3,
+.col-sm-6 {
+    padding: 1.5rem;
+    margin-top: 1rem;
 }
 
-.main p,
-.side p {
-    font-family: "华文中宋";
-    color: #5a5a5a;
+a,
+a:hover {
+    color: darkslategray;    
+    text-decoration: none;
+
 }
 
-.author {
-    margin-bottom: 3%;
-    opacity: 0.8;
-}
-
-.name {
-    text-align: right;
-}
-
-.main:hover,
-.side:hover {
-    background-color: #d6d6d6;
-    cursor: context-menu;
-    transition: 0.3s background-color;
+.col-md-3:hover,
+.col-xs-6:hover {
+    background-color: #f2f1f1;
+    border-radius: 0.2rem;
+    transition-duration: 0.3s;
 }

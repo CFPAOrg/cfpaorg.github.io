@@ -7,59 +7,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- 优秀的国产浏览器兼容 -->
     <meta name="renderer" content="webkit">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 缩放问题 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>CFPA</title>
-    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="icon" href="https://avatars1.githubusercontent.com/u/34183279?s=16">
 </head>
 
 <body>
     <div class="container">
-        <div class="page-header">
-            <h1>CFPAOrg<br><small>但是，让人着迷的，有时，也会让人盲目。</small></h1>
-        </div>
+        <nav class="navbar navbar-expand-sm bg-white">
+            <a class="navbar-brand" href=""><img src="https://i.loli.net/2018/07/01/5b37ad8817cb2.png" alt="icon"></a>
+            <ul class="navbar-nav text-secondary">
+                <li class="nav-item">人生贵知心，定交无暮早</li>
+            </ul>
+        </nav>
         <div class="row">
-            <div class="col-md-8">
-                <div class="main">
-                    <h1>春</h1>
-                    <p class="author">朱自清 1933年7月</p>
-                    <p>盼望着，盼望着，东风来了，春天的脚步近了。</p>
-                    <p>一切都像刚睡醒的样子，欣欣然张开了眼。山朗润起来了，水涨起来了，太阳的脸红起来了。</p>
-                    <p>小草偷偷地从土里钻出来，嫩嫩的，绿绿的。园子里，田野里，瞧去，一大片一大片满是的。坐着，躺着，打两个滚，踢几脚球，赛几趟跑，捉几回迷藏。风轻悄悄的，草软绵绵的。</p>
-                    <p>桃树、杏树、梨树，你不让我，我不让你，都开满了花赶趟儿。红的像火，粉的像霞，白的像雪。花里带着甜味儿；闭了眼，树上仿佛已经满是桃儿、杏儿、梨儿。花下成千成百的蜜蜂嗡嗡地闹着，大小的蝴蝶飞来飞去。野花遍地是：杂样儿，有名字的，没名字的，散在草丛里，像眼睛，像星星，还眨呀眨的。</p>
-                    <p>“吹面不寒杨柳风”，不错的，像母亲的手抚摸着你。风里带来些新翻的泥土的气息，混着青草味儿，还有各种花的香，都在微微润湿的空气里酝酿。鸟儿将巢安在繁花嫩叶当中，高兴起来了，呼朋引伴地卖弄清脆的喉咙，唱出宛转的曲子，与轻风流水应和着。牛背上牧童的短笛，这时候也成天嘹亮地响着。</p>
-                    <p>雨是最寻常的，一下就是三两天。可别恼。看，像牛毛，像花针，像细丝，密密地斜织着，人家屋顶上全笼着一层薄烟。树叶儿却绿得发亮，小草儿也青得逼你的眼。傍晚时候，上灯了，一点点黄晕的光，烘托出一片安静而和平的夜。在乡下，小路上，石桥边，有撑起伞慢慢走着的人，地里还有工作的农民，披着蓑戴着笠。他们的房屋，稀稀疏疏的在雨里静默着。</p>
-                    <p>天上风筝渐渐多了，地上孩子也多了。城里乡下，家家户户，老老小小，也赶趟儿似的，一个个都出来了。舒活舒活筋骨，抖擞抖擞精神，各做各的一份事去。“一年之计在于春”，刚起头儿，有的是工夫，有的是希望。</p>
-                    <p>春天像刚落地的娃娃，从头到脚都是新的，它生长着。</p>
-                    <p>春天像小姑娘，花枝招展的，笑着，走着。</p>
-                    <p>春天像健壮的青年，有铁一般的胳膊和腰脚，领着我们上前去。</p>
+            <div class="col-lg-7">
+               <!-- 感谢菜鸟教程的案例 -->
+                <div id="demo" class="carousel slide" data-ride="carousel">
+                    <!-- 指示符 -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+                    <!-- 轮播图片 -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://i.loli.net/2018/07/01/5b37af874b81c.jpg" class="img-fluid rounded">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.loli.net/2018/07/01/5b37af87500ec.jpg" class="img-fluid rounded">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.loli.net/2018/07/01/5b37af8751eec.jpg" class="img-fluid rounded">
+                        </div>
+                    </div>
+                    <!-- 左右切换按钮 -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next"><span class="carousel-control-next-icon"></span></a>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="side">
-                    <p>土地是以它的肥沃和收获而被估价的；才能也是土地，不过它生产的不是粮食，而是真理。如果只能滋生瞑想和幻想的话，即使再大的才能也只是砂地或盐池，那上面连小草也长不出来的。</p>
-                    <p class="name">—— 3TUSK</p>
-                </div>
-                <div class="side">
-                    <p>温顺的青年人在图书馆里长大，他们相信他们的责任是应当接受西塞罗，洛克，培根发表的意见；他们忘了西塞罗，洛克与培根写这些书的时候，也不过是在图书馆里的青年人。</p>
-                    <p class="name">—— yuanjie000</p>
-                </div>
-                <div class="side">
-                    <p>躯体总是以惹人厌烦告终。除思想以外，没有什么优美和有意思的东西留下来，因为思想就是生命。</p>
-                    <p class="name">—— 阿仇</p>
-                </div>
-                <div class="side">
-                    <p>命运是一件很不可思议的东西。虽人各有志，往往在实现理想时会遭遇到许多困难，反而会使自己走向与志趣相反的路，而一举成功。我想我就是这样。</p>
-                    <p class="name">—— 迺逸夫</p>
-                </div>
+            <div class="col-lg-5">
+                <h1 class="display-5 text-center main-title">想要加入翻译？</h1>
+                <p class="text-secondary">当我再次游览我在少年时代经常去的地方时，发现大自然竟将这片土地装扮得如此美丽，在恬静的沉寂中的故地风景，是如此难以理解且毫不做作。我喜欢坐在我熟悉的岩石上，观看上面的苔藓，我在永远呈灰白色的岩石上尚未衰老，但在常青树下面，我却不再年轻。</p>
+                <p class="text-secondary text-right">—— 梭罗《河上的幸福时刻》</p>
+                <button type="button" class="btn btn-lg btn-danger join-us"><i class="fa fa-paper-plane"></i> 参与翻译</button>
+            </div>
+        </div>
+        <div class="row text-center sub-info">
+            <div class="col-md-3 col-sm-6">
+                <a href="https://baka943.coding.me/WeblateUse/">
+               <i class="fa fa-book fa-5x"></i><br><br>
+                <h5 class="text-secondary">Weblate入门<br><small>快速入门毫无困难</small></h5>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a href="https://cfpa.team/TransRules/">
+               <i class="fa fa-legal fa-5x"></i><br><br>
+                <h5 class="text-secondary">翻译守则规范<br><small>统一翻译不是难事</small></h5>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a href="https://issues.cfpa.team">
+               <i class="fa fa-bug fa-5x"></i><br><br>
+                <h5 class="text-secondary">问题反馈中心<br><small>有问题，我们来解决</small></h5>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a href="https://cfpa.team/TransQualityControl/">
+               <i class="fa fa-table fa-5x"></i><br><br>
+                <h5 class="text-secondary">翻译质量检查<br><small>每天检查身体棒</small></h5>
+                </a>
             </div>
         </div>
     </div>
-    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
-    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
-    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
-    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <div class="container-fluid bg-light">
+        <div class="footer">
+            <p class="text-secondary text-center">But to be fascinated is also, sometime, to be blind.<br> 但是，让人着迷的，有时，也会让人盲目。</p>
+        </div>
+    </div>
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <!-- popper.min.js 用于弹窗、提示、下拉菜单 -->
+    <script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+    <!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
+    <script src="https://cdn.bootcss.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
