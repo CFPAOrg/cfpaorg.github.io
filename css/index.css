@@ -64,7 +64,7 @@ a:hover {
 }
 
 #info-row {
-  display: -webkit-box;
+  display: -webkit-flex;
   display: flex;
   justify-content: center;
 }
