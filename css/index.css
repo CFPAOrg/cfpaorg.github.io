@@ -64,9 +64,8 @@ a:hover {
 }
 
 #info-row {
-  display: -webkit-flex;
-  display: flex;
   justify-content: center;
+  display: none;
 }
 
 .info-title {
