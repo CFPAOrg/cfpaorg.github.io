@@ -1,73 +1,75 @@
 .row {
-    margin-top: 1rem;
-    padding: 0.8rem 0 0.8rem 0;
+  margin-top: 1rem;
+  padding: 0.8rem 0 0.8rem 0;
 }
 
 .main-title {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .join-us {
-    margin: 0px auto;
-    display: table;
+  margin: 0px auto;
+  display: table;
 }
 
 .sub-info {
-    margin-top: 1rem;
-    margin-bottom: 4rem;
-    padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  padding: 1rem;
 }
 
 .footer {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .col-md-3,
 .col-sm-6 {
-    padding: 1.5rem;
-    margin-top: 1rem;
+  padding: 1.5rem;
+  margin-top: 1rem;
 }
 
 a,
 a:hover {
-    color: darkslategray;
-    text-decoration: none;
+  color: darkslategray;
+  text-decoration: none;
 }
 
 .col-md-3:hover,
 .col-xs-6:hover {
-    background-color: #f2f1f1;
-    border-radius: 0.2rem;
-    transition-duration: 0.3s;
+  background-color: #f2f1f1;
+  border-radius: 0.2rem;
+  transition-duration: 0.3s;
 }
 
 .info-div {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    background-color: #5c5c5c;
-    padding: 1rem;
-    border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  background-color: #5c5c5c;
+  padding: 1rem;
+  border-radius: 0.5rem;
 }
 
 .info-text {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .text-muted {
-    margin-top: 0.4rem;
-    margin-bottom: 0.4rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
 }
 
 #info-row {
-    display: none;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
 }
 
 .info-title {
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
