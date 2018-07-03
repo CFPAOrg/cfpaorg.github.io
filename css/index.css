@@ -72,3 +72,8 @@ a:hover {
   margin-top: 0.5rem;
   margin-bottom: 1rem;
 }
+
+.url-info {
+    color: brown;
+    text-decoration: underline;
+}
