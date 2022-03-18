@@ -159,9 +159,7 @@
             <div class="col-lg-12" id="contributor">
                 <h4 id="data"><i class="fa fa-user-circle"></i> 参与译者</h4>
                 <hr>
-                <img v-for="value in contributor" v-bind:src="value.icon" class="rounded-circle img-thumbnail"
-                    v-bind:alt="value.author" style="width: 50px; margin: 2px" data-toggle="tooltip"
-                    v-bind:title="value.author">
+                <img v-for="value in contributor" v-bind:src="value.avatar_url" class="rounded-circle img-thumbnail" v-bind:alt="value.login" style="width: 50px; margin: 2px" data-toggle="tooltip" v-bind:title="value.login+'丨'+value.contributions">
             </div>
         </div>
     </div>
