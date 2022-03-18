@@ -15,16 +15,6 @@
     <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.13/vue.min.js"></script>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="icon" href="https://avatars1.githubusercontent.com/u/34183279?s=16">
-    <!-- 百度统计 -->
-    <script>
-        // var _hmt = _hmt || [];
-        // (function () {
-        //     var hm = document.createElement("script");
-        //     hm.src = "https://hm.baidu.com/hm.js?a2662a7effcc498a85a0eaf1cfa3240a";
-        //     var s = document.getElementsByTagName("script")[0];
-        //     s.parentNode.insertBefore(hm, s);
-        // })();
-    </script>
 </head>
 
 <body>
@@ -70,10 +60,9 @@
             </div>
             <div class="col-lg-5">
                 <h1 class="display-5 text-center main-title">想参与模组翻译么？</h1>
-                <p class="text-center">我们需要你的帮助！</p>
-                <p class="text-center">模组翻译云端发布，快速惠及普通玩家！</p>
-                <p class="text-center">翻译资源齐全详尽，快速上手模组翻译！</p>
-                <p class="text-center">众人齐力长期维护，更多玩家互惠互利！</p>
+                <p class="text-muted">我们是一个开放的爱好者团体，拥有诸多工具和学习资料，帮助新人快速成长为翻译者。</p>
+                <p class="text-muted">我们还提供了翻译文件的分发平台，让你制作的翻译文件便捷又迅速分享给其他玩家。</p>
+                <p class="text-muted">众多爱好者参与其中，你可以随时与其他翻译者交流学习，长期持续的帮助模组社区做的更好！</p>
                 <br>
                 <button type="button" class="btn btn-lg btn-danger join-us" onclick="location.href='/joinus.html'">
                     <i class="fa fa-paper-plane"></i> 我想参与</button>
@@ -81,22 +70,21 @@
         </div>
         <div class="row text-center">
             <div class="col-lg-12" id="weblate">
-                <h3 id="data">当前翻译了 {{result["translated"]}} 行词条，总计 {{result["total"]}} 行文本</h3>
                 <hr>
-                <div class="progress" style="height:45px;">
-                    <div class="progress-bar bg-success" :style="{'width':precent}" id="progress">
-                        <h3 id="progress-text">翻译进度：{{precent}}</h3>
+                <div class="progress" style="height:35px;">
+                    <div class="progress-bar" :style="{'width':precent}" id="progress">
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="row text-center">
-            <div class="col-lg-12" id="contributor">
-                <h4 id="data"><i class="fa fa-user-circle"></i> 参与译者</h4>
-                <hr>
-                <img v-for="value in contributor" v-bind:src="value.icon" class="rounded-circle img-thumbnail"
-                    v-bind:alt="value.author" style="width: 50px; margin: 2px" data-toggle="tooltip"
-                    v-bind:title="value.author">
+                <h3 id="data" style="margin-top: 20px;">
+                    当前翻译了 {{result["translated"]}} 行词条，总计 {{result["total"]}} 行文本
+                    <span class="badge badge-success">{{precent}}</span>
+                </h3>
+                <h4 class="text-muted" style="margin-top: 10px;">
+                    支持 Minecraft 版本
+                    <span class="badge badge-info">1.12</span>
+                    <span class="badge badge-danger">1.16</span>
+                    <span class="badge badge-warning">1.18</span>
+                </h4>
             </div>
         </div>
         <div class="row text-center sub-info">
@@ -165,6 +153,15 @@
                         <small>在玩整合？我想你会需要</small>
                     </h5>
                 </a>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-lg-12" id="contributor">
+                <h4 id="data"><i class="fa fa-user-circle"></i> 参与译者</h4>
+                <hr>
+                <img v-for="value in contributor" v-bind:src="value.icon" class="rounded-circle img-thumbnail"
+                    v-bind:alt="value.author" style="width: 50px; margin: 2px" data-toggle="tooltip"
+                    v-bind:title="value.author">
             </div>
         </div>
     </div>
