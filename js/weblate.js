@@ -2,7 +2,7 @@
 var transData = new Vue({
     el: "#weblate",
     data: {
-        result: {"total": 1480053, "total_words": 6990698, "last_change": "2022-08-27T14:22:48.835375Z", "recent_changes": 5431, "translated": 1279711, "translated_words": 5992876, "translated_percent": 86.4, "translated_words_percent": 85.7, "translated_chars": 36976777, "translated_chars_percent": 85.8, "total_chars": 43054755, "fuzzy": 1969, "fuzzy_percent": 0.1, "failing": 24164, "failing_percent": 1.6, "approved": 3066, "approved_percent": 0.2, "readonly": 738695, "readonly_percent": 49.9, "suggestions": 2851, "comments": 3, "name": "LangPack", "url": "http://weblate-t.exz.me/projects/langpack/"}
+        result: {"total": 1480053, "total_words": 6990724, "last_change": "2022-08-27T14:22:48.835375Z", "recent_changes": 5431, "translated": 1279711, "translated_words": 5992902, "translated_percent": 86.4, "translated_words_percent": 85.7, "translated_chars": 36976945, "translated_chars_percent": 85.8, "total_chars": 43054923, "fuzzy": 1969, "fuzzy_percent": 0.1, "failing": 24165, "failing_percent": 1.6, "approved": 3066, "approved_percent": 0.2, "readonly": 738695, "readonly_percent": 49.9, "suggestions": 2851, "comments": 3, "name": "LangPack", "url": "http://weblate-t.exz.me/projects/langpack/"}
     },
     computed: {
         precent: function() {
