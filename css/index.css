@@ -111,3 +111,19 @@ a:hover {
     margin: 0 auto;
     font-size: 1rem;
 }
+
+.progress {
+    position: relative;
+}
+
+.progress-data {
+    white-space: nowrap;;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    align-items: center;
+}
