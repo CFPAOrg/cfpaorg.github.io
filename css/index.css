@@ -1,4 +1,10 @@
 body {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     background: url(https://s2.loli.net/2022/03/18/QP4c7lYnfSTMgEo.png);
     background-size: cover/contain
 }
