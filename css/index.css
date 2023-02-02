@@ -19,11 +19,7 @@ body {
     margin-bottom: 1rem;
 }
 
-.buttons {
-    display: flex;
-}
-
-.button {
+.join-us {
     margin: 0px auto;
     display: table;
 }
