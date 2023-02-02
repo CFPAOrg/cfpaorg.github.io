@@ -103,3 +103,15 @@ a:hover {
     font-size: large;
     font-weight: bold;
 }
+
+#download-versions {
+    width: 60%;
+    margin: 1rem auto;
+
+    display: flex;
+}
+
+.download-version-tag {
+    margin: 0 auto;
+    font-size: 1rem;
+}
