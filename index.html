@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 
 <head>
     <meta charset="UTF-8">
@@ -68,27 +68,7 @@
                     <i class="fa fa-paper-plane"></i> 我想参与</button>
             </div>
         </div>
-        <div class="row text-center">
-            <div class="col-lg-12" id="weblate">
-                <hr>
-                <div class="progress" style="height:35px;">
-                    <div class="progress-bar" :style="{'width':precent}" id="progress">
-                    </div>
-                </div>
-                <h3 id="data" style="margin-top: 20px;">
-                    当前翻译了 {{result["translated"]}} 行词条，总计 {{result["total"]}} 行文本
-                    <span class="badge badge-success">{{precent}}</span>
-                </h3>
-                <h4 class="text-muted" style="margin-top: 10px;">
-                    官方支持 Minecraft 版本
-                    <span class="badge badge-danger">1.12</span>
-                    <span class="badge badge-danger">1.16</span>
-                    <span class="badge badge-danger">1.18</span>
-                    <span class="badge badge-danger">1.19</span>
-                    <br>还能通过自动汉化更新模组的转换兼容几乎所有Minecraft版本
-                </h4>
-            </div>
-        </div>
+        <hr>
         <div class="row text-center sub-info">
             <div class="col-md-4 col-sm-6">
                 <a href="/">
@@ -155,6 +135,76 @@
                         <small>在玩整合？我想你会需要</small>
                     </h5>
                 </a>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-lg-12" id="weblate">
+                <h4 class="text-center">
+                    <i class="fa fa-spinner"></i>
+                    翻译进度
+                    <span class="badge badge-success">{{precent}}</span>
+                </h4>
+                <hr>
+                <div class="progress" id="progress" style="height:40px;">
+                    <div class="progress-bar" :style="{'width':precent}" id="progress">
+                    </div>
+                    <h3 class="progress-data" id="data">
+                        当前翻译了 {{result["translated"]}} 行词条，总计 {{result["total"]}} 行文本
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" id="download">
+                <h4 class="text-center"><i class="fa fa-cloud-download"></i>直接下载</h4>
+                <hr>
+                <div class="text-secondary text-center">
+                    下载对应游戏版本的汉化资源包，并加载即可实现模组汉化。
+                </div>
+                <div id="download-versions">
+                    <a
+                            class="download-version-tag badge badge-info"
+                            href="http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-10-2.zip"
+                    >
+                        1.10.2
+                    </a>
+                    <a
+                            class="download-version-tag badge badge-info"
+                            href="http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack.zip"
+                    >
+                        1.12.2
+                    </a>
+                    <a
+                            class="download-version-tag badge badge-info"
+                            href="http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-16.zip"
+                    >
+                        1.16
+                    </a>
+                    <a
+                            class="download-version-tag badge badge-info"
+                            href="http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-16-Fabric.zip"
+                    >
+                        1.16-Fabric
+                    </a>
+                    <a
+                            class="download-version-tag badge badge-info"
+                            href="http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-18.zip"
+                    >
+                        1.18
+                    </a>
+                    <a
+                            class="download-version-tag badge badge-info"
+                            href="http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-18-Fabric.zip"
+                    >
+                        1.18-Fabric
+                    </a>
+                    <a
+                            class="download-version-tag badge badge-info"
+                            href="http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-19.zip"
+                    >
+                        1.19
+                    </a>
+                </div>
             </div>
         </div>
         <div class="row text-center">

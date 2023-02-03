@@ -1,10 +1,16 @@
 body {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     background: url(https://s2.loli.net/2022/03/18/QP4c7lYnfSTMgEo.png);
     background-size: cover/contain
 }
 
 .row {
-    margin-top: 1rem;
+    margin: 1rem 0;
     padding: 0.8rem 0 0.8rem 0;
 }
 
@@ -19,8 +25,6 @@ body {
 }
 
 .sub-info {
-    margin-top: 1rem;
-    margin-bottom: 4rem;
     padding: 1rem;
 }
 
@@ -92,4 +96,32 @@ a:hover {
     margin-bottom: 0px;
     font-size: large;
     font-weight: bold;
+}
+
+#download-versions {
+    width: 60%;
+    margin: 1rem auto;
+
+    display: flex;
+}
+
+.download-version-tag {
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+.progress {
+    position: relative;
+}
+
+.progress-data {
+    white-space: nowrap;;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    align-items: center;
 }
