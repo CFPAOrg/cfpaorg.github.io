@@ -9,7 +9,7 @@
     <meta name="renderer" content="webkit">
     <!-- 缩放问题 -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>CFPA</title>
+    <title>模组翻译</title>
     <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css">
     <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
     <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.13/vue.min.js"></script>
@@ -24,7 +24,7 @@
                 <img src="https://s2.loli.net/2022/03/16/CJZiVg2IQDdRAz3.png" alt="icon">
             </a>
             <ul class="navbar-nav text-secondary">
-                <li class="nav-item">China Foxgirl Protection Association</li>
+                <li class="nav-item">CFPA 模组翻译</li>
             </ul>
         </nav>
         <div class="row">
@@ -162,58 +162,40 @@
                     下载对应游戏版本的汉化资源包，并加载即可实现模组汉化。
                 </div>
                 <div id="download-versions">
-                    <a
-                            class="download-version-tag badge badge-info"
-                            href="http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-10-2.zip"
-                    >
+                    <a class="download-version-tag badge badge-info"
+                        href="http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-10-2.zip">
                         1.10.2
                     </a>
-                    <a
-                            class="download-version-tag badge badge-info"
-                            href="http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack.zip"
-                    >
+                    <a class="download-version-tag badge badge-info"
+                        href="http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack.zip">
                         1.12.2
                     </a>
-                    <a
-                            class="download-version-tag badge badge-info"
-                            href="http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-16.zip"
-                    >
+                    <a class="download-version-tag badge badge-info"
+                        href="http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-16.zip">
                         1.16
                     </a>
-                    <a
-                            class="download-version-tag badge badge-info"
-                            href="http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-16-Fabric.zip"
-                    >
+                    <a class="download-version-tag badge badge-info"
+                        href="http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-16-Fabric.zip">
                         1.16-Fabric
                     </a>
-                    <a
-                            class="download-version-tag badge badge-info"
-                            href="http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-18.zip"
-                    >
+                    <a class="download-version-tag badge badge-info"
+                        href="http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-18.zip">
                         1.18
                     </a>
-                    <a
-                            class="download-version-tag badge badge-info"
-                            href="http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-18-Fabric.zip"
-                    >
+                    <a class="download-version-tag badge badge-info"
+                        href="http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-18-Fabric.zip">
                         1.18-Fabric
                     </a>
-                    <a
-                            class="download-version-tag badge badge-info"
-                            href="http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-19.zip"
-                    >
+                    <a class="download-version-tag badge badge-info"
+                        href="http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-19.zip">
                         1.19
                     </a>
-                    <a
-                            class="download-version-tag badge badge-info"
-                            href="http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-20.zip"
-                    >
+                    <a class="download-version-tag badge badge-info"
+                        href="http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-20.zip">
                         1.20
                     </a>
-                    <a
-                            class="download-version-tag badge badge-info"
-                            href="http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-20-Fabric.zip"
-                    >
+                    <a class="download-version-tag badge badge-info"
+                        href="http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-20-Fabric.zip">
                         1-20-Fabric
                     </a>
                 </div>
@@ -223,7 +205,9 @@
             <div class="col-lg-12" id="contributor">
                 <h4 id="data"><i class="fa fa-user-circle"></i> 参与译者</h4>
                 <hr>
-                <img v-for="value in contributor" v-bind:src="value.avatar_url" class="rounded-circle img-thumbnail" v-bind:alt="value.login" style="width: 50px; margin: 2px" data-toggle="tooltip" v-bind:title="value.login+'丨'+value.contributions">
+                <img v-for="value in contributor" v-bind:src="value.avatar_url" class="rounded-circle img-thumbnail"
+                    v-bind:alt="value.login" style="width: 50px; margin: 2px" data-toggle="tooltip"
+                    v-bind:title="value.login+'丨'+value.contributions">
             </div>
         </div>
     </div>
@@ -231,6 +215,9 @@
         <div class="footer">
             <p class="text-secondary text-center">But to be fascinated is also, sometime, to be blind.
                 <br> 但是，让人着迷的，有时，也会让人盲目。
+            </p>
+            <p class="text-secondary text-center">
+                <a href="https://beian.miit.gov.cn/">陕ICP备2024034575号-1</a>
             </p>
         </div>
     </div>
